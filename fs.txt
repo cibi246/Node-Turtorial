@@ -1,0 +1,21 @@
+Node fs functions:
+unlink - delete a file
+readFile - Asynchronous read.
+readFileSync - Synchronous read.
+Asynchronous read is always preffered over synchronous read because it will never block the program execution.
+open - open a file in asynchronous mode
+stat - file information
+writeFile - writes into a file
+read - read a file
+close - close a file
+ftruncate - truncate a file
+mkdir - make a directory
+readDir - read a directory
+rmDir - remove a directory
+
+Global Objects:
+__filename
+__dirname
+setTimeout()
+clearTimeout()
+setInterval()
